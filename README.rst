@@ -48,7 +48,7 @@ Question 1
 
 Modifier la fonction qui ``filter_letters(string)`` qui prend en entré une string en majuscule et qui retourne une liste de lettres présentes dans string ayant un rang impaire (A, C, E, G, etc...)
 
-exemple : ``filter_letters("correction") -> "coecio"``
+exemple : ``filter_letters("CORRECTION") -> "COECIO"``
 
 
 Question 2
