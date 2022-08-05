@@ -186,7 +186,7 @@ class Exercice2Test(unittest.TestCase):
         except NotImplementedError:
             assert False, "question non traitée"
 
-    def test_exercice2_question3(self):
+    def test_exercice2_question4(self):
         try:
             start = 4
             end = 10
@@ -197,13 +197,10 @@ class Exercice2Test(unittest.TestCase):
 
 
     def test_exercice2_question5(self):
-        try:
-            expected = "42"
-            result = return_int()
-            self.assertEqual(result, expected)
-            self.assertIsInstance(result, str)
-        except NotImplementedError:
-            assert False, "question non traitée"
+        expected = "42"
+        result = return_int()
+        self.assertEqual(result, expected)
+        self.assertIsInstance(result, str)
 
 
 if __name__ == '__main__':

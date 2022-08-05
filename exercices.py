@@ -25,20 +25,20 @@ class Spaceport:
         self.max_large = 2  # nombre maximum de Ship large. Un emplacement large peut être occupé par un Ship small
 
     def contains(self, ship):
-        """ esxercice 1 question 2 """
+        """ exercice 1 question 2 """
         raise NotImplementedError()
 
     def dock(self, ship):
-        """ esxercice 1 question 3 """
+        """ exercice 1 question 3 """
         raise NotImplementedError()
 
     def undock(self, ship):
-        """ esxercice 1 question 4 """
+        """ exercice 1 question 4 """
         raise NotImplementedError()
 
 
 def is_same_ship(ship1, ship2):
-    """ esxercice 1 question 1 """
+    """ exercice 1 question 1 """
     raise NotImplementedError()
 
 
@@ -49,25 +49,25 @@ def is_same_ship(ship1, ship2):
 
 
 def filter_letters(string):
-    """ esxercice 2 question 1 """
+    """ exercice 2 question 1 """
     raise NotImplementedError()
 
 
 def count_letters(string):
-    """ esxercice 2 question 2 """
+    """ exercice 2 question 2 """
     raise NotImplementedError()
 
 
 def mask_letters(string, mask):
-    """ esxercice 2 question 3 """
+    """ exercice 2 question 3 """
     raise NotImplementedError()
 
 
 def puissances(start, end):
-    """ esxercice 2 question 4 """
+    """ exercice 2 question 4 """
     raise NotImplementedError()
 
 
 def return_int():
-    """ esxercice 2 question 5 """
+    """ exercice 2 question 5 """
     return 42

@@ -1,9 +1,5 @@
- 	.. sectnum::
+	.. sectnum::
 
-
-  	.. footer::
-	
-		###Page###/###Total###
 
 Test technique
 ==============
