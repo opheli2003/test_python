@@ -130,15 +130,15 @@ class Exercice1Test(unittest.TestCase):
 
     def test_exercice1_question4(self):
         try:
-            ship = Ship("Misericorde", "small", "Ann Leckie")
             spaceport = Spaceport(
                 docked=[
                     Ship("Misericorde", "small", "Ann Leckie"),
                     Ship("Scopuli", "small", "James S.A. Corey"),
                     Ship("Hermes", "small", "Egosoft"),
-                    ship,
+                    Ship("Misericorde", "small", "Ann Leckie"),
                 ]
             )
+            ship = Ship("Misericorde", "small", "Ann Leckie")
             spaceport.undock(ship)
             assert [docked for docked in spaceport.docked if id(ship) == id(docked)] == [], "le vaisseau semble encore être docké"
 
